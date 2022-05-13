@@ -106,7 +106,7 @@ namespace EntityDataModelDemo
         }
 
         private void btnShow_Click(object sender, EventArgs e)
-        {
+        { 
             dataGridView1.DataSource = dbcontext.Emps.ToList();      
         }
     }
