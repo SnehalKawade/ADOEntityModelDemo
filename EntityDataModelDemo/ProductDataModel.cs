@@ -27,7 +27,6 @@ namespace EntityDataModelDemo
                 prod.Price = Convert.ToInt32(txtPrice.Text);
             
                 dbcontext.Products.Add(prod);
-
                 dbcontext.SaveChanges();
                 MessageBox.Show("Done");
             }
